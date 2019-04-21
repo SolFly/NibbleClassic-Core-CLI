@@ -33,7 +33,7 @@ Ubuntu, using GCC
 The binaries will be in the src folder when you are complete.
 
     cd src
-    ./NBX --version
+    ./Nibbled --version
     
 You need to modify the below command for your version of ubuntu
 
@@ -45,6 +45,51 @@ You need to modify the below command for your version of ubuntu
     Ubuntu 16.04 (Xenial)
 
     sudo add-apt-repository "deb https://apt.llvm.org/xenial/ llvm-toolchain-xenial 6.0 main"
+
+OSX/Apple, using GCC
+Prerequisites
+
+    Install XCode and Developer Tools.
+
+Building
+
+    which brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    brew install --force cmake boost llvm gcc@8
+    export CC=gcc-8
+    export CXX=g++-8
+    git clone -b master --single-branch https://github.com/NibbleClassic/NibbleClassic-Linux-CLI
+    cd turtlecoin
+    mkdir build
+    cd build
+    cmake ..
+    make
+
+The binaries will be in the src folder when you are complete.
+
+    cd src
+    ./Nibbled --version
+
+OSX/Apple, using Clang
+Prerequisites
+
+    Install XCode and Developer Tools.
+
+Building
+
+    which brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    brew install --force cmake boost llvm
+    export CC=/usr/local/opt/llvm/bin/clang
+    export CXX=/usr/local/opt/llvm/bin/clang++
+    git clone -b master --single-branch https://github.com/NibbleClassic/NibbleClassic-Linux-CLI
+    cd turtlecoin
+    mkdir build
+    cd build
+    cmake ..
+    make
+The binaries will be in the src folder when you are complete.
+
+    cd src
+    ./Nibbled --version
 
 How To Compile
 
