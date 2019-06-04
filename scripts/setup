@@ -23,8 +23,8 @@ cd ~/Source/
 # What's in the Source folder? Let's see.
 ls -al
 
-# Clone a copy of the TurtleCoin source code
-echo -e "\n\n\n== CLONING TurtleCoin in $sourcefolder"
+# Clone a copy of the NibbleClassic source code
+echo -e "\n\n\n== CLONING NibbleClassic in $sourcefolder"
 
 # By default we always push to the development branch, so if you 
 # want a nightly build, this is your best option. However, if you
