@@ -359,7 +359,7 @@ src/all: src/CMakeFiles/WalletService.dir/all
 src/all: src/CMakeFiles/cryptotest.dir/all
 src/all: src/CMakeFiles/System.dir/all
 src/all: src/CMakeFiles/WalletBackend.dir/all
-src/all: src/CMakeFiles/TurtleCoind.dir/all
+src/all: src/CMakeFiles/Nibbled.dir/all
 src/all: src/CMakeFiles/JsonRpcServer.dir/all
 src/all: src/CMakeFiles/zedwallet.dir/all
 src/all: src/CMakeFiles/service.dir/all
@@ -389,7 +389,7 @@ src/clean: src/CMakeFiles/WalletService.dir/clean
 src/clean: src/CMakeFiles/cryptotest.dir/clean
 src/clean: src/CMakeFiles/System.dir/clean
 src/clean: src/CMakeFiles/WalletBackend.dir/clean
-src/clean: src/CMakeFiles/TurtleCoind.dir/clean
+src/clean: src/CMakeFiles/Nibbled.dir/clean
 src/clean: src/CMakeFiles/JsonRpcServer.dir/clean
 src/clean: src/CMakeFiles/zedwallet.dir/clean
 src/clean: src/CMakeFiles/service.dir/clean
@@ -406,7 +406,7 @@ src/preinstall:
 # Target rules for target src/CMakeFiles/cli.dir
 
 # All Build rule for target.
-src/CMakeFiles/cli.dir/all: src/CMakeFiles/TurtleCoind.dir/all
+src/CMakeFiles/cli.dir/all: src/CMakeFiles/Nibbled.dir/all
 src/CMakeFiles/cli.dir/all: src/CMakeFiles/zedwallet.dir/all
 	$(MAKE) -f src/CMakeFiles/cli.dir/build.make src/CMakeFiles/cli.dir/depend
 	$(MAKE) -f src/CMakeFiles/cli.dir/build.make src/CMakeFiles/cli.dir/build
@@ -439,7 +439,7 @@ clean: src/CMakeFiles/cli.dir/clean
 # Target rules for target src/CMakeFiles/solominer.dir
 
 # All Build rule for target.
-src/CMakeFiles/solominer.dir/all: src/CMakeFiles/TurtleCoind.dir/all
+src/CMakeFiles/solominer.dir/all: src/CMakeFiles/Nibbled.dir/all
 src/CMakeFiles/solominer.dir/all: src/CMakeFiles/zedwallet.dir/all
 src/CMakeFiles/solominer.dir/all: src/CMakeFiles/miner.dir/all
 	$(MAKE) -f src/CMakeFiles/solominer.dir/build.make src/CMakeFiles/solominer.dir/depend
@@ -473,7 +473,7 @@ clean: src/CMakeFiles/solominer.dir/clean
 # Target rules for target src/CMakeFiles/pool.dir
 
 # All Build rule for target.
-src/CMakeFiles/pool.dir/all: src/CMakeFiles/TurtleCoind.dir/all
+src/CMakeFiles/pool.dir/all: src/CMakeFiles/Nibbled.dir/all
 src/CMakeFiles/pool.dir/all: src/CMakeFiles/service.dir/all
 	$(MAKE) -f src/CMakeFiles/pool.dir/build.make src/CMakeFiles/pool.dir/depend
 	$(MAKE) -f src/CMakeFiles/pool.dir/build.make src/CMakeFiles/pool.dir/build
@@ -1213,48 +1213,48 @@ clean: src/CMakeFiles/WalletBackend.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/TurtleCoind.dir
+# Target rules for target src/CMakeFiles/Nibbled.dir
 
 # All Build rule for target.
-src/CMakeFiles/TurtleCoind.dir/all: CMakeFiles/version.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: external/CMakeFiles/rocksdb.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Rpc.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Logging.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Crypto.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Http.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Common.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/Serialization.dir/all
-src/CMakeFiles/TurtleCoind.dir/all: src/CMakeFiles/System.dir/all
-	$(MAKE) -f src/CMakeFiles/TurtleCoind.dir/build.make src/CMakeFiles/TurtleCoind.dir/depend
-	$(MAKE) -f src/CMakeFiles/TurtleCoind.dir/build.make src/CMakeFiles/TurtleCoind.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sups/Development/NBX/CMakeFiles --progress-num=42 "Built target TurtleCoind"
-.PHONY : src/CMakeFiles/TurtleCoind.dir/all
+src/CMakeFiles/Nibbled.dir/all: CMakeFiles/version.dir/all
+src/CMakeFiles/Nibbled.dir/all: external/CMakeFiles/rocksdb.dir/all
+src/CMakeFiles/Nibbled.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
+src/CMakeFiles/Nibbled.dir/all: src/CMakeFiles/Rpc.dir/all
+src/CMakeFiles/Nibbled.dir/all: src/CMakeFiles/Logging.dir/all
+src/CMakeFiles/Nibbled.dir/all: src/CMakeFiles/Crypto.dir/all
+src/CMakeFiles/Nibbled.dir/all: src/CMakeFiles/Http.dir/all
+src/CMakeFiles/Nibbled.dir/all: src/CMakeFiles/Common.dir/all
+src/CMakeFiles/Nibbled.dir/all: src/CMakeFiles/Serialization.dir/all
+src/CMakeFiles/Nibbled.dir/all: src/CMakeFiles/System.dir/all
+	$(MAKE) -f src/CMakeFiles/Nibbled.dir/build.make src/CMakeFiles/Nibbled.dir/depend
+	$(MAKE) -f src/CMakeFiles/Nibbled.dir/build.make src/CMakeFiles/Nibbled.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sups/Development/NBX/CMakeFiles --progress-num=42 "Built target Nibbled"
+.PHONY : src/CMakeFiles/Nibbled.dir/all
 
 # Include target in all.
-all: src/CMakeFiles/TurtleCoind.dir/all
+all: src/CMakeFiles/Nibbled.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/TurtleCoind.dir/rule:
+src/CMakeFiles/Nibbled.dir/rule:
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sups/Development/NBX/CMakeFiles 43
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/TurtleCoind.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Nibbled.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sups/Development/NBX/CMakeFiles 0
-.PHONY : src/CMakeFiles/TurtleCoind.dir/rule
+.PHONY : src/CMakeFiles/Nibbled.dir/rule
 
 # Convenience name for target.
-TurtleCoind: src/CMakeFiles/TurtleCoind.dir/rule
+Nibbled: src/CMakeFiles/Nibbled.dir/rule
 
-.PHONY : TurtleCoind
-
-# clean rule for target.
-src/CMakeFiles/TurtleCoind.dir/clean:
-	$(MAKE) -f src/CMakeFiles/TurtleCoind.dir/build.make src/CMakeFiles/TurtleCoind.dir/clean
-.PHONY : src/CMakeFiles/TurtleCoind.dir/clean
+.PHONY : Nibbled
 
 # clean rule for target.
-clean: src/CMakeFiles/TurtleCoind.dir/clean
+src/CMakeFiles/Nibbled.dir/clean:
+	$(MAKE) -f src/CMakeFiles/Nibbled.dir/build.make src/CMakeFiles/Nibbled.dir/clean
+.PHONY : src/CMakeFiles/Nibbled.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/Nibbled.dir/clean
 
 .PHONY : clean
 
