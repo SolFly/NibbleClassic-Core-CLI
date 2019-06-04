@@ -245,7 +245,7 @@ namespace WalletTypes
 
             /* A map of public keys to amounts, since one transaction can go to
                multiple addresses. These can be positive or negative, for example
-               one address might have sent 10,000 TRTL (-10000) to two recipients
+               one address might have sent 10,000 NBX (-10000) to two recipients
                (+5000), (+5000) 
                
                All the public keys in this map, are ones that the wallet container

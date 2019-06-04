@@ -5,7 +5,7 @@
 #define PROJECT_SITE "http://www.nibble-nibble.com"
 #define PROJECT_COPYRIGHT "Copyright (c) 2018, The Nibble Developers"
 #define APP_VER_MAJOR 2
-#define APP_VER_MINOR 1
+#define APP_VER_MINOR 2
 #define APP_VER_REV 0
 #define APP_VER_BUILD 2
 
