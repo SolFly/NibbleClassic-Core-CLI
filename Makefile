@@ -503,17 +503,17 @@ WalletBackend/fast:
 .PHONY : WalletBackend/fast
 
 #=============================================================================
-# Target rules for targets named TurtleCoind
+# Target rules for targets named Nibbled
 
 # Build rule for target.
-TurtleCoind:
-	$(MAKE) -f CMakeFiles/Makefile2 TurtleCoind
-.PHONY : TurtleCoind
+Nibbled:
+	$(MAKE) -f CMakeFiles/Makefile2 Nibbled
+.PHONY : Nibbled
 
 # fast build rule for target.
-TurtleCoind/fast:
-	$(MAKE) -f src/CMakeFiles/TurtleCoind.dir/build.make src/CMakeFiles/TurtleCoind.dir/build
-.PHONY : TurtleCoind/fast
+Nibbled/fast:
+	$(MAKE) -f src/CMakeFiles/Nibbled.dir/build.make src/CMakeFiles/Nibbled.dir/build
+.PHONY : Nibbled/fast
 
 #=============================================================================
 # Target rules for targets named JsonRpcServer
@@ -605,7 +605,7 @@ help:
 	@echo "... cryptotest"
 	@echo "... System"
 	@echo "... WalletBackend"
-	@echo "... TurtleCoind"
+	@echo "... Nibbled"
 	@echo "... JsonRpcServer"
 	@echo "... zedwallet"
 	@echo "... service"

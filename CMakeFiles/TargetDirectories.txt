@@ -55,7 +55,7 @@
 /home/sups/Development/NBX/src/CMakeFiles/cryptotest.dir
 /home/sups/Development/NBX/src/CMakeFiles/System.dir
 /home/sups/Development/NBX/src/CMakeFiles/WalletBackend.dir
-/home/sups/Development/NBX/src/CMakeFiles/TurtleCoind.dir
+/home/sups/Development/NBX/src/CMakeFiles/Nibbled.dir
 /home/sups/Development/NBX/src/CMakeFiles/JsonRpcServer.dir
 /home/sups/Development/NBX/src/CMakeFiles/zedwallet.dir
 /home/sups/Development/NBX/src/CMakeFiles/service.dir

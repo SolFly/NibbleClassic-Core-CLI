@@ -71,7 +71,7 @@ function generate_tarball()
     tar --transform "s,^,$RELEASE_NAME/," -c -f $TARBALL -z -C "$CLONE_DIR/build/release/src" \
         miner \
         zedwallet \
-        TurtleCoind \
+        Nibbled \
         walletd
 
     generate_checksums $TARBALL
@@ -115,11 +115,11 @@ then
 fi
 
 # -- Config
-GITHUB_REPO="https://github.com/turtlecoin/turtlecoin.git"
-CLONE_DIR="$BUILD_DIRECTORY/turtlecoin-buildall"
-TARGET_DIR="$BUILD_DIRECTORY/turtlecoin-releases"
-DYNAMIC_RELEASE="turtlecoin-${TAG_VERSION}-linux-CLI"
-STATIC_RELEASE="turtlecoin-${TAG_VERSION}-linux-staticboost-CLI"
+GITHUB_REPO="https://github.com/nibble/nibble.git"
+CLONE_DIR="$BUILD_DIRECTORY/nibble-buildall"
+TARGET_DIR="$BUILD_DIRECTORY/nibble-releases"
+DYNAMIC_RELEASE="nibble-${TAG_VERSION}-linux-CLI"
+STATIC_RELEASE="nibble-${TAG_VERSION}-linux-staticboost-CLI"
 
 checkout_tag
 build_static_linked_version
