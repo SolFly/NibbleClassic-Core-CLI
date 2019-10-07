@@ -14,7 +14,7 @@ namespace WalletConfig
     const std::string addressPrefix = "Nib";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "NBX";
+    const std::string ticker = "NCX";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";
@@ -27,7 +27,7 @@ namespace WalletConfig
     const std::string daemonName = "Nibbled";
 
     /* The name to call this wallet */
-    const std::string walletName = "NBXwallet";
+    const std::string walletName = "NCXwallet";
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
