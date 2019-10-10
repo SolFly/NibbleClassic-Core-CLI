@@ -61,7 +61,7 @@ enum WalletErrorCode
     ADDRESS_WRONG_LENGTH = 12,
 
     /* The address does not have the correct prefix, e.g. does not begin with
-       NCX (or whatever is specified in WalletConfig::addressPrefix) */
+       Nib (or whatever is specified in WalletConfig::addressPrefix) */
     ADDRESS_WRONG_PREFIX = 13,
 
     /* The address is not fully comprised of base58 characters */
