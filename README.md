@@ -1,3 +1,5 @@
+![image](https://i.imgur.com/lgUW7YD.png)
+
 Copyright (c) 2018, The TurtleCoin Developers
 Copyright (c) 2018, The Nibble Developers
 Please see the included LICENSE file for more information.
